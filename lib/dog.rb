@@ -4,7 +4,7 @@
   attr_accessor :mood, :owner
   @@all = []
 
-  def initialize(name, mood = "nervous")
+  def initialize(name, owner, mood = "nervous")
     @mood = mood
     @name = name
     @owner = owner
