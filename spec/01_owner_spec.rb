@@ -27,7 +27,7 @@ describe Owner do
         expect { @owner.species = "hamster" }.to raise_error NoMethodError
       end
     end
-
+    
     describe "#say_species " do
       it "can say its species" do
         expect(@owner.say_species).to eq("I am a human.")
